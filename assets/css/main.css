@@ -235,9 +235,9 @@ p {
   }
 }
 
-/*===== All Preloader Style =====*/
+
 .preloader {
-  /* Body Overlay */
+  
   position: fixed;
   top: 0;
   left: 0;
@@ -555,14 +555,14 @@ p {
   width: 100%;
   height: 2px;
   background-color: #4E6EF1;
-  transform: scaleX(0); /* Start with no underline */
-  transform-origin: bottom right; /* Animation origin */
+  transform: scaleX(0); 
+  transform-origin: bottom right; 
   transition: transform 0.3s ease-out;
 }
 
 .navbar-nav .nav-item a:hover::after {
-  transform: scaleX(1); /* Underline grows to full width */
-  transform-origin: bottom left; /* Origin point for left-to-right animation */
+  transform: scaleX(1); 
+  transform-origin: bottom left; 
 }
 
 
